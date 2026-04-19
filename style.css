@@ -1,0 +1,24 @@
+#myHeader {
+  background-color: #d8edef;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+}
+
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #94e6ed;
+}
+
+video, canvas {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#output {
+  margin-top: 500px;
+  font-size: 20px;
+}
